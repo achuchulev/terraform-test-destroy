@@ -14,7 +14,3 @@ resource "null_resource" "HelloWorld" {
 }
 
 data "aws_region" "current" {}
-
-output "region_name" {
-  value = data.aws_region.current.name
-}
