@@ -7,10 +7,6 @@ terraform {
   }
 }
 
-resource "null_resource" "HelloWorld" {
-  provisioner "local-exec" {
-    command = "echo ${data.aws_region.current.name}"
-  }
-}
+resource "null_resource" "HelloWorld" {}
 
 data "aws_region" "current" {}
