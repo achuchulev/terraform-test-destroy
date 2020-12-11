@@ -13,4 +13,4 @@ resource "null_resource" "HelloWorld" {
   }
 }
 
-#data "aws_region" "current" {}
+data "aws_region" "current" {}
