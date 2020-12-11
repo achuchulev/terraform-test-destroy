@@ -1,3 +1,3 @@
-# output "region_name" {
-#   value = data.aws_region.current.name
-# }
+output "region_name" {
+  value = data.aws_region.current.name
+}
